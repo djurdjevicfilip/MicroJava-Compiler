@@ -1,0 +1,36 @@
+// Test301
+
+program test301
+	class B{
+	int a;
+		{
+		    int c(){ return 1;}
+			int k(){ return 9;}
+		}
+		
+	}
+	
+	class A extends B{
+		int a;
+	}
+	class C extends A{
+	
+		int a;
+		{
+		
+		
+			int p() {return 200;}
+			int c(){ return this.k()+p() + this.p() + k()+a;}
+		}
+	}
+{
+
+	void main()	
+		B b;
+	{	
+		b = new C;
+		print(b.c());
+	}
+}
+
+

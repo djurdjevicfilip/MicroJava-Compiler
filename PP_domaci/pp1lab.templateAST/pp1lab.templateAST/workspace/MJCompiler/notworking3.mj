@@ -1,0 +1,56 @@
+program test301
+	char niz[];
+	const int size = 26;
+	int j;
+	
+	int a[];
+	
+	class Klasa {
+		int k;
+		int niz[];
+		char z;
+		{
+			int fja(int x,char y){
+			 	k = x;
+			 	this.k = x + k ;
+			 	return k;
+			}
+		}
+	}
+	
+	class Klasa1 extends Klasa {
+		{
+			int sum(int a,int b){
+				//z='a';
+			
+				return a + b;
+			}
+			int fja(int x,char y){
+			 	this.k = x;
+			 	
+			 	
+			 	return sum(this.k,this.k);
+			}
+		}
+	}
+	
+{
+	
+	void proba(Klasa k){
+		k.z = 'X';
+	}
+	void main()	Klasa k; int i;
+	{
+	
+		
+		i=0;
+		//k = new Klasa;
+		//i = k.fja(5,'?');
+		
+		k = new Klasa1;
+		i=k.fja(5,'?');
+		print(i);
+		
+		
+	}
+}
