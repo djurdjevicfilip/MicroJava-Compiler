@@ -1,1 +1,3 @@
 # MicroJava-Compiler
+
+Uni project - microjava compiler with do while loops, function calls, classes...
